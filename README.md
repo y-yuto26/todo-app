@@ -38,6 +38,7 @@ MYSQL_ROOT_PASSWORD=your_password
 MYSQL_DATABASE=todo_db
 ### ③ Docker起動
 docker-compose up -d --build
+※起動した後は20秒ほどたってから再読み込みしてください
 
 
 ---
