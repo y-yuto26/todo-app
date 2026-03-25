@@ -29,13 +29,13 @@ git clone https://github.com/y-yuto26/todo-app.git
 cd todo-app
 ### ② .envファイル作成
 ### .env.web
-# MYSQL_HOST=db
-# MYSQL_USER=root
-# MYSQL_PASSWORD=your_password
-# MYSQL_DATABASE=todo_db
+#### MYSQL_HOST=db
+#### MYSQL_USER=root
+#### MYSQL_PASSWORD=your_password
+#### MYSQL_DATABASE=todo_db
 ### .env.db
-# MYSQL_ROOT_PASSWORD=your_password
-# MYSQL_DATABASE=todo_db
+#### MYSQL_ROOT_PASSWORD=your_password
+#### MYSQL_DATABASE=todo_db
 ### ③ Docker起動
 docker-compose up -d --build
 ※起動した後は20秒ほどたってから再読み込みしてください
